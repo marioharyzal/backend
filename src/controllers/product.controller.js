@@ -30,7 +30,6 @@ export const create = async (req, res) => {
 
         response.success(res);
     } catch (error) {
-        console.info(error);
         response.badRequest(res);
     }
 };
